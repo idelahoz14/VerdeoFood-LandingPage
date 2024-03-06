@@ -1,0 +1,185 @@
+/* Estilos CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Color de fondo gris claro */
+}
+
+header {
+    background-color: #2ecc71; /* Verde oscuro */
+    color: #fff; /* Texto blanco */
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+}
+
+header img {
+    width: 10%;
+}
+
+.logo {
+    margin-left: 5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.hero {
+    background-color: #27ae60; /* Verde claro */
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 5rem;
+}
+
+.hero img {
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #2ecc71; /* Verde oscuro */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.button:hover {
+    background-color: #239b56; /* Verde más oscuro al pasar el mouse */
+}
+
+.benefits {
+    background-color: #fff; /* Fondo blanco */
+    color: #555; /* Texto gris oscuro */
+    text-align: center;
+    padding: 50px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.benefit {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefit img {
+    width: 10%;
+    
+}
+
+.container h3 {
+    margin: 0;
+}
+
+
+.products {
+    background-color: #27ae60; /* Verde claro */
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    border-radius: 5px;
+}
+
+.products-carousel {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 3rem;
+}
+
+.product-card {
+    width: 30%;
+    background-color: #2ecc71; /* Verde oscuro */
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    border-radius: 5px;
+}
+
+.product-card img {
+    width: 30%;
+}
+
+.testimonials {
+    background-color: #fff; /* Fondo blanco */
+    color: #555; /* Texto gris oscuro */
+    text-align: center;
+    padding: 50px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.testimonials img {
+    width: 10%;
+}
+
+.testimonial {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.cta {
+    background-color: #27ae60; /* Verde claro */
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #2ecc71; /* Verde oscuro */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+footer img {
+    width: 10%;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
