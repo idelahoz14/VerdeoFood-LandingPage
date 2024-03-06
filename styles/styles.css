@@ -15,7 +15,7 @@ header {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
     display: flex;
     align-items: center;
-    gap: 7rem;
+    justify-content: center;
 }
 
 header img {
@@ -23,9 +23,7 @@ header img {
 }
 
 .logo {
-    margin-left: 5rem;
     display: flex;
-    gap: 1rem;
 }
 
 .hero {
